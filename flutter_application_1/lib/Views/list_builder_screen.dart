@@ -31,7 +31,7 @@ class ListBuildScreen extends StatelessWidget {
               height: 200,
               width: double.infinity,
               alignment: Alignment.center,
-              child: CircleAvatar(radius: 50)),
+              child: CircleAvatar(radius: 50, child: Icon(Icons.abc))),
           ListTile(
             leading: Icon(Icons.home_work),
             title: Text('home'),
